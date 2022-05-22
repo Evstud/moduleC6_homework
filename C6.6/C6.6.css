@@ -1,0 +1,79 @@
+.first_stroke {
+    display: flex;
+  }
+  
+  .user_inp {
+    width: 60%;
+    border: 4px solid rgba(103, 176, 245, 0.59);
+    padding: 5px;
+  }
+  
+  .user_inp:focus {
+   outline: none;
+  }
+  
+  .btn_send {
+    width: 20%;
+    margin-left: 5px;
+    border: none;
+    overflow-x: hidden;
+    background: rgba(103, 176, 245, 0.59);
+    padding: 5px;
+  }
+  
+  .btn_send:hover{
+    box-shadow: 0px 2px 8px 2px rgba(141,150,178,.3);
+    transform: scale(1.1);
+  }
+  
+  .btn_geo {
+    width: 20%;
+    margin-left: 5px;
+    border: none;
+    overflow-x: hidden;
+    background: rgba(103, 176, 245, 0.59);
+    padding: 5px;
+  }
+  
+  .btn_geo:hover {
+    box-shadow: 0px 2px 8px 2px rgba(141,150,178,.3);
+    transform: scale(1.1);
+  }
+  
+  .chat_wrap {
+    border: 4px solid rgba(103, 176, 245, 0.59);
+    height: 300px;
+    margin: 10px 0 0 0;
+    overflow: auto;
+  }
+  
+  .userMessage {
+    word-wrap: break-word;
+    border: 2px solid rgba(103, 176, 245, 0.59);
+    border-radius: 4px;
+    margin-left: auto;
+    overflow-x: hidden;
+    padding: 5px;
+  }
+  
+  .echoMessage {
+    wordWrap: break-word;
+    border: 2px solid rgba(103, 176, 245, 0.59);
+    border-radius: 4px;
+    overflow-x: hidden;
+    padding: 5px;
+  }
+  
+  .geoDiv {
+    display: flex;
+    margin-right: 10px;
+  }
+  
+  .link {
+    border: 2px solid rgba(103, 176, 245, 0.59);
+    border-radius: 4px;
+    margin-left: auto;
+    padding: 5px;
+  }
+  
+  

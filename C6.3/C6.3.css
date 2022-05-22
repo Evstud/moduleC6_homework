@@ -1,0 +1,8 @@
+.btn{
+    display: flex;
+    cursor: pointer;
+  }
+  
+  .btn_txt{
+    margin-right: 10px;
+  }
